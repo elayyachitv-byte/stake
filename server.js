@@ -357,7 +357,7 @@ app.get('/api/reject/:id', async (req, res) => {
 // START SERVER
 // ─────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`✅ Server running on stake.enzonic.dev:${PORT}`);
+  console.log(`✅ Server running on stake-production-70f3.up.railway.app:${PORT}`);
   console.log(`🤖 Telegram polling started...`);
   
   // Start polling Telegram for /approve /reject commands
